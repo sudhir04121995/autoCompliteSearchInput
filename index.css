@@ -1,0 +1,60 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: aqua;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+#myNewDiv {
+  background-color: aqua;
+}
+
+#myInput::placeholder {
+  text-align: center;
+  font-size: larger;
+}
+
+#myInput {
+  display: block;
+  margin: auto;
+  align-items: center;
+  background: white;
+  color: rgb(66, 3, 3);
+  width: 600px;
+  padding: 10px;
+  margin-top: 30px;
+  box-sizing: border-box;
+  font-size: 18px;
+  border: none;
+  border-radius: 30px;
+}
+
+.brewery-card {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  margin: 10px;
+  background-color: bisque;
+  border-radius: 20px;
+}
+
+#cardDiv {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+@media screen and (max-width: 600px) {
+  #myInput {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+    #myInput {
+      width: 80%;
+    }
+  }
+  
